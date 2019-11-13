@@ -4,9 +4,23 @@
   flex-basis: 50%;
   display: flex;
   justify-content: flex-start;
+
 }
 .logo 
 {
-  padding-top: 15px;
-  padding-left: 20px;
+  width: 80px;
+  margin-left: 73px;
+  background-image: url('../../assets/logo.svg');
+  background-size: 350px 270px;
+  background-repeat: no-repeat;
+  background-position: 33% 35%;
 }
+.logo-element
+{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin-top: 27px;
+  margin-left: 30px;
+  color: grey;
+}
+
