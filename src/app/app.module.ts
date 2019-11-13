@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { BannerComponent } from './banner/banner.component';
 import { LogoComponent } from './logo/logo.component';
 import { MenuComponent } from './menu/menu.component';
+import { PreloaderComponent } from './preloader/preloader.component';
 
 @NgModule({
   declarations: [
@@ -16,10 +17,11 @@ import { MenuComponent } from './menu/menu.component';
     HeaderComponent,
     BannerComponent,
     LogoComponent,
-    MenuComponent
+    MenuComponent,
+    PreloaderComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
