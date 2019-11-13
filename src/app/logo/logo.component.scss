@@ -1,4 +1,12 @@
 .logo-container
 {
+  height: 100%;
   flex-basis: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+.logo 
+{
+  padding-top: 15px;
+  padding-left: 20px;
 }
